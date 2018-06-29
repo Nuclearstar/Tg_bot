@@ -1,3 +1,3 @@
 import os
 print("Script started")
-os.system("python -m tg_bot")
+os.system("python3 -m tg_bot")
