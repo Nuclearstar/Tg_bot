@@ -15,7 +15,7 @@ class Config(object):
     OWNER_USERNAME = "__init__"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:qwertyuiop@localhost:5433/Telegram'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgresql://postgresql:5432/Telegram'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss']
