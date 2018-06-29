@@ -6,4 +6,5 @@ def install(name):
 
 install('pip')
 install('sqlalchemy')
+install('psycopg2-binary')
 install('python-telegram-bot')
