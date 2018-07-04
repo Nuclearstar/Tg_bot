@@ -10,12 +10,12 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "601399246:AAEdhxmrfeoccTQtiY0c7sRI_S9VpVS8qz0"
-    OWNER_ID = "136761746"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "__init__"
+    API_KEY = ""
+    OWNER_ID = ""  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = ""
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'postgresql://postgresql:5432/Telegram'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgresql://postgresql@localhost:5432/Telegram'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     LOAD = []
     NO_LOAD = ['translation', 'rss']
@@ -23,7 +23,7 @@ class Config(object):
     URL = None
 
     # OPTIONAL
-    SUDO_USERS = [5522373,138312364,97492356,167623566]  # List of id's (not usernames) for users which have sudo access to the bot.
+    SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
     SUPPORT_USERS = []  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
     WHITELIST_USERS = []  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     DONATION_LINK = None  # EG, paypal
